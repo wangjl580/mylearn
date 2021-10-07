@@ -64,8 +64,7 @@ sudo docker images #列出镜像 或者sudo docker image ls
 #2.
 sudo docker login  #登录账号 sudo docker login -u wangjl580 -p 1011320sr 记录账户名和密码, 以后直接sudo docker login 
 #3.
-sudo docker tag hello-world:latest wangjl580/goodpython:hello-world-test #执行docker tag命令
-sudo docker tag node:8.16.1 wangjl580/dynode:node-8.16.1
+sudo docker tag node:8.16.1 wangjl580/dynode:node-8.16.1 #执行docker tag命令
 #4.
 sudo docker push wangjl580/dynode:node-8.16.1
 
